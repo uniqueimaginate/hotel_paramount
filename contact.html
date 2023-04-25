@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Donguk Lee">
+    <meta name="description" content="Hotel Paramount's Contact Page">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <title>Hotel Paramount | Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Hotel Paramount</a></h1>
+        <nav class="contact-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accomodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <div>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream
+                        vacation with us! <br>
+                        Required fields marked with a *</p>
+                    <img src="images/swiss-peak.jpg"
+                        alt="Below the picture, a river is flowing from front to back. The upper part of the picture has a very high and steep rock mountain facing forward, and a dense forest of trees is situated between the upper and lower parts."
+                        width="350" height="455">
+                </div>
+                <div>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        <label for="full-name">Full Name*</label>
+                        <input type="text" name="full-name" id="full-name" required>
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="phone">Phone*</label>
+                        <input type="tel" name="phone" id="phone" required>
+
+                        <fieldset>
+                            <legend>Preferred Contact Method</legend>
+                            <div class="fieldset-div">
+                                <input type="radio" name="contact-pref" id="pref-email" class="pref-inputs" checked>
+                                <label for="pref-email" id="pref-email-label" class="pref-labels">Email</label>
+                                <input type="radio" name="contact-pref" id="pref-phone" class="pref-inputs">
+                                <label for="pref-phone" id="pref-phone-label" class="pref-labels">Phone</label>
+                            </div>
+
+
+                        </fieldset>
+
+                        <label for="comments">Comments*</label>
+                        <textarea name="comments" id="comments" required></textarea>
+
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright &copy;2023 - Hotel Paramount</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+
+</html>
